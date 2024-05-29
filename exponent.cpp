@@ -17,7 +17,6 @@ double exponent(double n, int p = 2) {
 }
 
 double exponent_recurse(double n, int p = 2 ) {
-    static double results = 1;
     if (p == 0) {
         return 1;
     }
