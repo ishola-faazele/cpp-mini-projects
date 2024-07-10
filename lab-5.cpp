@@ -26,14 +26,18 @@ class YoutubeChannel{
                 cout << videoTitle << endl;
             }
         }
+
         void Subscribe() {
             SubscriberCount++;
         }
+
         void Unsubscribe() {
-            if(SubscriberCount > 0) {
-                SubscriberCount--;
-            }
+            if (SubscriberCount > 0) SubscriberCount--;
+            // if(SubscriberCount > 0) {
+            //     SubscriberCount--;
+            // }
         }
+
         string getName() {
             return Name;
         }

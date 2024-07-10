@@ -15,6 +15,7 @@ class Quadrilateral {
             return x * y;
         }
 };
+
 int main(){
     Quadrilateral quad1;
     quad1.set_values(3, 4);

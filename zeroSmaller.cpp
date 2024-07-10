@@ -3,7 +3,7 @@ using namespace std;
 void zeroSmaller(int&, int&);
 int main() {
     int a = 3;
-    int b = 1;
+    int b = 4;
     zeroSmaller(a, b);
     cout << a << b;
 }
